@@ -1,10 +1,10 @@
 
 const express = require('express');
-const http = require('http');
+// const http = require('http');
 // var WebSocket = require('ws');
 
 var app = express();
-const server = http.createServer(app);
+// const server = http.createServer(app);
 
 // var wss = new WebSocketServer({ port: process.env.PORT || 8080 });
 // var wss = new WebSocket.Server({ server });
@@ -282,6 +282,6 @@ var map = new Map();
 
 
 const PORT = process.env.PORT || 3000;
-server.listen(PORT, function () {
+app.listen(PORT, function () {
 	console.log("Server started on port " + PORT);
 });
