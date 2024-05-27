@@ -10,7 +10,9 @@ const server = http.createServer(app);
 var wss = new WebSocket.Server({ server });
 
 app.get('/', function (req, res) {
-	res.sendFile(__dirname + '/index.html');
+	res.json({
+		message: 'Hello World!'
+	});
 });
 
 var users = {};
