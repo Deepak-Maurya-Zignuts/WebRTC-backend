@@ -1,7 +1,17 @@
 {
+  "name": "generatehub-backend",
+  "version": "1.0.0",
+  "description": "Backend for genarthub",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
   "dependencies": {
     "@vercel/node": "^3.1.5",
     "express": "^4.19.2",
     "ws": "^8.17.0"
-  }
+  }  
 }
+
