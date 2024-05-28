@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@vercel/node": "^3.1.5",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "ws": "^8.17.0"
-  }  
+  }
 }
-
